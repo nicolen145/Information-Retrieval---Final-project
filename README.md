@@ -12,11 +12,11 @@ without modification.
 
 ## Repository Structure
 ```bash
-├── search_frontend.py        # Flask REST API for the search engine
+├── README.md
+├── benchmark_queries.py      # Script for measuring query runtime and Precision@10
+├── benchmark_results.csv     # Output CSV with benchmark results
 ├── inverted_index_gcp.py     # GCP-based inverted index implementation
-├── benchmark_queries.py      # Script for measuring query runtime
-├── queries_train.json        # Training queries for evaluation
-└── README.md
+└── search_frontend.py        # Flask REST API for the search engine
 ```
 
 
