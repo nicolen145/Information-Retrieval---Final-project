@@ -1,0 +1,31 @@
+query,latency_sec,precision_at_10,num_results
+Mount Everest climbing expeditions,9.365801095962524,0.8,100
+Great Fire of London 1666,5.3314855098724365,0.9,100
+Nanotechnology materials science,2.17826509475708,0.4,100
+Fossil fuels climate change,2.2344374656677246,0.4,100
+DNA double helix discovery,1.7395591735839844,0.7,100
+Printing press invention Gutenberg,2.287074089050293,1.0,100
+Ancient Egypt pyramids pharaohs,1.6273658275604248,0.7,100
+Gothic literature Mary Shelley,2.3831276893615723,0.2,100
+Robotics automation industry,1.42051362991333,0.8,100
+Television invention broadcast media,4.083871841430664,0.4,100
+Wright brothers first flight,1.7360904216766357,0.8,100
+Steam locomotive transportation history,1.3077116012573242,0.1,100
+Currency history gold standard,2.635655164718628,0.6,100
+Renaissance art Leonardo da Vinci,2.5178263187408447,0.7,100
+Shakespeare plays Elizabethan theatre,2.4229841232299805,0.8,100
+Solar eclipse astronomy observation,1.0204696655273438,0.6,100
+Renaissance architecture Florence Italy,2.3479721546173096,0.7,100
+Impressionism Monet Renoir,0.5801835060119629,0.7,100
+Samurai code Bushido Japan,2.3096141815185547,0.6,100
+Fossil record paleontology evidence,3.1489830017089844,0.8,100
+Silk Road trade cultural exchange,4.7635931968688965,0.7,100
+Industrial Revolution steam engines,2.3048717975616455,0.6,100
+Green Revolution agriculture yield,2.5544021129608154,0.9,100
+Quantum computing future technology,2.8457446098327637,0.3,100
+Viking exploration North America,5.868682146072388,0.6,100
+Roman aqueducts engineering innovation,2.3638975620269775,0.8,100
+Coffee history Ethiopia trade,3.825373411178589,0.5,100
+Stonehenge prehistoric monument,1.9583942890167236,0.9,100
+Photography invention Daguerre,0.7713558673858643,0.4,100
+Ballet origins France Russia,3.5758183002471924,0.3,100
