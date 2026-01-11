@@ -69,7 +69,7 @@ The server runs on port 8080.
 
 Example query:
 ```bash
-http://<EXTERNAL_IP>:8080/search?query=information+retrieval
+http://35.225.188.26:8080/search?query=information+retrieval
 ```
 
 
