@@ -205,7 +205,9 @@ def search():
                 reranked.append((doc_id, final))
 
             reranked.sort(key=lambda x: x[1], reverse=True)
-            res = [(doc_id, titles.get(doc_id, "")) for doc_id, _ in reranked[:100]]
+        #   res = [(doc_id, titles.get(doc_id, "")) for doc_id, _ in reranked[:100]]  if the doc_id in the training queries is an int
+            res = [(str(doc_id), titles.get(doc_id, "")) for doc_id, _ in reranked[:100]]
+
     # END SOLUTION
 
     return jsonify(res)
@@ -284,7 +286,7 @@ def search_body():
                 scored.append((doc_id, final))
 
             scored.sort(key=lambda x: x[1], reverse=True)
-            res = [(doc_id, titles.get(doc_id, "")) for doc_id, _ in scored[:100]]
+            res = [(str(doc_id), titles.get(doc_id, "")) for doc_id, _ in scored[:100]]
     # END SOLUTION
 
     return jsonify(res)
@@ -327,7 +329,8 @@ def search_title():
             hits[int(doc_id)] += 1
 
     ranked = sorted(hits.items(), key=lambda x: x[1], reverse=True)
-    res = [(doc_id, titles.get(doc_id, "")) for doc_id, _ in ranked]
+    res = [(str(doc_id), titles.get(doc_id, "")) for doc_id, _ in ranked]
+
     # END SOLUTION
 
     return jsonify(res)
